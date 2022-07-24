@@ -1,0 +1,10 @@
+number=10
+binary_value = number
+decimal_value= 0
+base=1
+while number>0:
+    reminder = number % 10
+    decimal_value = decimal_value + reminder * base
+    number =number // 10
+    base = base *2
+print(binary_value, decimal_value)

@@ -1,0 +1,22 @@
+# Method 1
+
+Val = int(input('Enter number:'))
+Val = str(Val)
+Replaced = Val.replace('0','1')
+print("Converted number is:" + Replaced)
+
+# Method 2
+
+n=int(input('Enter number: '))
+
+n=str(n)
+
+n=list(n)
+r="" 
+for i in range(len(n)):
+   
+    if(n[i]=='0'):
+        n[i]='1'
+    r=r + n[i] 
+del n
+print("Converted number is :",int(r))

@@ -10,3 +10,18 @@ print('The ASCII value of', Char, 'is', Ascii_val)
 
 
 # C++ code
+
+//C++ program to calculate ASCII value of Character
+#include <iostream>
+using namespace std;
+
+//main program
+int main()
+{
+	char val='z';
+
+    //printing the ASCII value of input 
+    //through typecasting
+    cout<<"The ASCII value of "<<val<<" is "<<(int)val;
+    return 0;
+}

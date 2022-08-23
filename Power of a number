@@ -1,0 +1,6 @@
+num, power = 3, 2
+def powerrecur(num,power):
+  if power == 0:
+    return 1
+  return num * powerrecur(num,power-1)
+print(powerrecur(num,power))
